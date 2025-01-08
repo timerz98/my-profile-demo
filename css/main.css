@@ -944,3 +944,69 @@ header {
   margin: 0 auto;
 }
 /* Footer finished */
+
+
+:root {
+  --background-color: #1e1e1e;
+  --foreground-color: #ffffff;
+  --card-background: #2e2e2e;
+  --border-color: #444444;
+  --accent-color: #4e89ff;
+  --button-hover: #3a3a3a;
+}
+
+body {
+  margin: 40px 0px;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+body.dark-mode {
+  --background-color: #1e1e1e;
+  --foreground-color: #ffffff;
+  --card-background: #2e2e2e;
+  --border-color: #444444;
+  --accent-color: #4e89ff;
+  --button-hover: #3a3a3a;
+}
+
+main {
+  background-color: var(--card-background);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+header {
+  background-color: var(--card-background);
+}
+
+#logo a i {
+  color: var(--foreground-color);
+}
+
+#search-form form {
+  background-color: var(--card-background);
+  border-color: var(--border-color);
+}
+
+#search-form form input {
+  color: var(--foreground-color);
+}
+
+button {
+  background-color: var(--card-background);
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.p-cnt-v {
+  background-color: var(--card-background);
+}
+
+.m-btn {
+  background-color: var(--button-hover);
+  color: var(--foreground-color);
+}
+
+
